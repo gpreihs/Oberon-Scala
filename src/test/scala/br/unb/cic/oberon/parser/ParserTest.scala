@@ -1856,7 +1856,7 @@ class ParserTestSuite extends AnyFunSuite {
     assert(module.userTypes.length == 1)
   }
 
-  test("Testing the oberon stmt34 code. This module has a record and array type declarations"){
+  ignore("Testing the oberon stmt34 code. This module has a record and array type declarations"){
     val path = Paths.get(getClass.getClassLoader.getResource("stmts/stmt34.oberon").getFile)
 
     assert(path != null)

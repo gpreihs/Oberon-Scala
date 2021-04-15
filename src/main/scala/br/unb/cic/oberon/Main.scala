@@ -17,7 +17,6 @@ class Conf(arguments: Seq[String]) extends ScallopConf(arguments) {
   val compile = opt[List[String]](name = "compile", short = 'c', descr = "Compile the Oberon program", argName = "Oberon program path")
 
   verify()
-
 }
 
 object Main {
